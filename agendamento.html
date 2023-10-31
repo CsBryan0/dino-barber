@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="shortcut icon" href="./src/image/favicon.ico" >
+    <title>Dino Barber - Agendamento</title>
+  </head>
+  <body>
+    <header>
+      <h1>Dino Barber</h1>
+    </header>
+
+    <form id="form">
+      <h2>Agendamento</h2>
+
+      <fieldset>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+  
+        <label>Horário:</label>
+        <label>
+          <input type="radio" id="manha" name="horario" value="manha" required />
+          Manhã
+        </label>
+        <label>
+          <input type="radio" id="tarde" name="horario" value="tarde" required />
+          Tarde
+        </label>
+      </fieldset>
+  
+      <fieldset>
+        <legend>Serviços</legend>
+        <label>
+          <input
+            type="checkbox"
+            id="corteMaquina"
+            name="servico"
+            value="Corte com máquina"
+          />
+          Corte com máquina - R$ 25,00
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            id="corteTesoura"
+            name="servico"
+            value="Corte com tesoura"
+          />
+          Corte com tesoura - R$ 28,00
+        </label>
+        <label>
+          <input type="checkbox" id="barba" name="servico" value="Barba" />
+          Barba - R$ 15,00
+        </label>
+        <label>
+          <input type="checkbox" id="barba" name="servico" value="Sombrancelha" />
+          Sombrancelha - R$ 10,00
+        </label>
+      </fieldset>
+
+      <button id="btn" type="submit">Agendar</button>
+    </form>
+
+
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>

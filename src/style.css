@@ -1,0 +1,212 @@
+/* Definindo as cores da paleta */
+:root {
+    --black: #000000;
+    --red: #FF0000;
+    --gold: #FFD700;
+    --white: #FFFFFF;
+}
+
+/* Estilizando o container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    padding: 20px;
+}
+
+/* Estilizando o logo */
+header h1 {
+    color: var(--gold);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 36px;
+}
+
+/* Estilizando a seção hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./image/logo-modificada.jpg");
+    background-position: center;
+    height: 500px;
+}
+
+/* Estilizando o título da seção hero */
+.hero h2 {
+    color: var(--white);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 48px;
+}
+
+/* Estilizando o texto da seção hero */
+.hero p {
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+/* Estilizando o botão da seção hero */
+.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: var(--red);
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Estilizando o título dos serviços */
+h2 {
+    text-align: center;
+    color: var(--black);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Estilizando a seção de serviços */
+.services {
+    display: flex;
+}
+
+/* Estilizando cada serviço */
+.service {
+    flex-basis: calc(50% - (20px /2));
+}
+
+/* Estilizando a imagem de cada serviço */
+.service img {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Estilizando o título de cada serviço */
+.service h3 {
+    text-align: center;
+    color: var(--black);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Estilizando o botão de cada serviço */
+.service a {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--gold);
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Estilos do formulário */
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.horarios {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.horario {
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilos das opções de serviço */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+fieldset label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Estilos dos botões de ação */
+button {
+    background-color: var(--gold);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* Estilizando o rodapé */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    padding: 20px;
+}
+
+/* Estilizando o título do rodapé */
+footer h3 {
+    color: var(--gold);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Estilizando o texto do rodapé */
+footer p {
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
